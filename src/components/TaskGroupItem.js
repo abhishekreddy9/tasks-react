@@ -107,7 +107,7 @@ class TaskGroupItem extends React.Component {
         Authorization: `Token ${window.localStorage.getItem("token")}`
       },
       body: JSON.stringify({
-        tasks: this.props.id,
+        taskgroupid: this.props.id,
         content: this.state.addText
       })
     })

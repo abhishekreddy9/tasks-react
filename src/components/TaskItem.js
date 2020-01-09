@@ -68,7 +68,7 @@ class TaskItem extends React.Component {
         Authorization: `Token ${window.localStorage.getItem("token")}`
       },
       body: JSON.stringify({
-        tasks: this.props.taskgroupid,
+        taskgroupid: this.props.taskgroupid,
         content: this.state.editText
       })
     })
