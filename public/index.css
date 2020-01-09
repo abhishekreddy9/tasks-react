@@ -1,0 +1,47 @@
+.x {
+  color: white;
+  font-size: 24px;
+}
+
+.headerFont {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.headerFont:hover {
+  color: white;
+}
+
+.likeButton {
+  height: 21px;
+  width: 23px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.inputs {
+  height: 43px;
+  width: 320px;
+  display: block;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+  padding: 13px;
+  width: 100px;
+  display: block;
+  margin-left: 130px;
+  background-color: #1a237e;
+  color: white;
+}
+
+.icons {
+  color: white;
+  height: 45px;
+}
+
+form label {
+  font-size: 15px;
+  margin-left: 18px;
+}
